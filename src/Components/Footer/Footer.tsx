@@ -1,10 +1,10 @@
 import React from 'react'
 import './Footer.css'
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <div className='footer'>
-    <p>© 2024 Edusity. All rights reserved.</p>
+    <p>© 2026 Edusity. All rights reserved.</p>
     <ul>
         <li>Terms of Services</li>
         <li>Privacy Policy</li>

@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 import darkarrow from '../../assets/edusityAssets/darkArrow.png'
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <div className='hero container'>
     <div className="heroText">

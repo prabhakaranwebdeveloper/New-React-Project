@@ -1,10 +1,12 @@
-import React from 'react'
 import './About.css'
 import aboutImg from '../../assets/edusityAssets/about.png'
 import playIcon from '../../assets/edusityAssets/playicon.png'
 
+type AboutProps = {
+  setPlayState: React.Dispatch<React.SetStateAction<boolean>>;
+};
 
-const About = ({setPlayState}) => {
+const About: React.FC<AboutProps> = ({ setPlayState }) => {
   return (
     <div className='about'>
      <div className="aboutLeft">

@@ -1,7 +1,12 @@
 import React from 'react'
 import './Title.css'
 
-const Title = ({subTitle, title}) => {
+type TitleProps = {
+  subTitle: string;
+  title: string;
+};
+
+const Title: React.FC<TitleProps> = ({ subTitle, title }) => {
   return (
     <div className='title'>
      <p>{subTitle}</p>

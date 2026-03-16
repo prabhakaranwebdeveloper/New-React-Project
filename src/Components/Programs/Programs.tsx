@@ -8,7 +8,7 @@ import programIcon2 from '../../assets/edusityAssets/programicon2.png'
 import programIcon3 from '../../assets/edusityAssets/programicon3.png'
 
 
-const Programs = () => {
+const Programs: React.FC = () => {
   return (
     <div className='programs'>
 

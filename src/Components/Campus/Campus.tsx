@@ -6,7 +6,7 @@ import gallery3 from '../../assets/edusityAssets/gallery3.png'
 import gallery4 from '../../assets/edusityAssets/gallery4.png'
 import whitearrow from '../../assets/edusityAssets/whitearrow.png'
 
-const Campus = () => {
+const Campus: React.FC = () => {
   return (
     <div className='campus'>
     <div className="gallery">
