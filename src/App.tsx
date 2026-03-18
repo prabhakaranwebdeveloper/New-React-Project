@@ -5,8 +5,10 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import Videoplayer from "./Components/Videoplayer/Videoplayer";
 
 const App: React.FC = () => {
+  
   return (
     <>
       <Navbar />
@@ -16,6 +18,7 @@ const App: React.FC = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+       <Videoplayer />
     </>
   );
 };

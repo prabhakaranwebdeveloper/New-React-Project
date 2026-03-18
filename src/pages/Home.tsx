@@ -10,7 +10,7 @@ import Footer from "../Components/Footer/Footer";
 import Videoplayer from "../Components/Videoplayer/Videoplayer";
 
 const Home: React.FC = () => {
-  const [playState, setPlayState] = useState<boolean>(false);
+
 
   return (
     <>
@@ -20,7 +20,7 @@ const Home: React.FC = () => {
         <Title subTitle="Our PROGRAM" title="What We Offer" />
         <Programs />
 
-        <About setPlayState={setPlayState} />
+        <About/>
 
         <Title subTitle="Gallery" title="Campus Photos" />
         <Campus />
@@ -34,7 +34,7 @@ const Home: React.FC = () => {
         <Footer />
       </div>
 
-      <Videoplayer playState={playState} setPlayState={setPlayState} />
+      <Videoplayer />
     </>
   );
 };
